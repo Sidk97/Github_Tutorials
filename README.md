@@ -6,7 +6,7 @@
 ## Overview
 - Creating a Github repository
 - Installation of Git Cli (Command Line Interface)
-- 
+- Configuration
 
 
 ## Installation
@@ -19,7 +19,12 @@ Once Installed the installation can be verified using the command prompt
 git --version
 ```
 
-
+## Congiguration
+Inside the project folder 
+```sh
+git config --gloabl user.name"Your_name"
+git config --global user.email your_email_id
+```
 
 ## License
 
