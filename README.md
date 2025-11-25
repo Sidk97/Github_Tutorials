@@ -1,5 +1,5 @@
 # Github Tutorials
-
+The objective of this repository is to document my learning about Git and its commands.
 
 
 
@@ -105,7 +105,18 @@ In order to view what is staged but not yet commited
 git diff --staged
 ```
 ## Branching and Merging
+Lets stay you want to create and work on a copy of the main branch, to do this we create another branch
 
+```
+git branch <branch_name>
+```
+Lets consider _developer_ as the new branch name
+
+To make this as the primary branch for commiting changes
+```
+git checkout developer
+```
+### Merging - Timestamp 10:09
 
 ## License
 
