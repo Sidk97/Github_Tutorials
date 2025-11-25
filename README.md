@@ -34,7 +34,7 @@ Inside the project folder
 git config --gloabl user.name"Your_name"
 git config --global user.email your_email_id
 ```
-## Pushin files on to Repository
+## Pushing files on to Repository
 _Concept_:- Before any file is pushed on to the repository, the files are first added/staged on to a staging environment.
 
 In order to check modified files and untracked files inside the workspace, 
@@ -43,7 +43,37 @@ git status
 ```
 This gives an overview of the status of the files whether these have been modified or untracked files
 
-``
+```
+git add <file_name>
+```
+This adds the desired file to the staging area so that it can then be further pushed to the repository.
+
+```
+git commit -m "First Commit"
+```
+This will make sure that it goes to the staginf environment with the desired message
+
+```
+git branch
+```
+To check the branch on Github
+
+```
+git branch -M main
+```
+To rename the branch from "Master" to "main".
+
+```
+git remote add origin https://github.com/Sidk97/Github_Tutorials.git
+```
+This links the local repository to the Github repository where the files need to be pushed to._origin_ is the variable/name assigned to the repository.
+
+
+```
+git push origin main
+```
+This pushes the code/files to the repository.
+
 ## License
 
 MIT
