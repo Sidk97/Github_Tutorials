@@ -7,7 +7,7 @@
 - Creating a Github repository
 - Installation of Git Cli (Command Line Interface)
 - Configuration
-
+- Pushing Files to the Repository
 
 ## Installation
 
@@ -35,7 +35,12 @@ git config --gloabl user.name"Your_name"
 git config --global user.email your_email_id
 ```
 ## Pushing files on to Repository
-_Concept_:- Before any file is pushed on to the repository, the files are first added/staged on to a staging environment.
+_Concept_:- 
+1.Before any file is pushed on to the repository, the files are first added/staged on to a staging environment.
+2.There are three steps before the files are pushed to the repository,
+a. **Add** the desired files to the staging environment.
+b. **Commit** the file to the staging environment.
+c. **Push** the file to the repository hosted on GitHub or GitLab.
 
 In order to check modified files and untracked files inside the workspace, 
 ```
@@ -47,6 +52,11 @@ This gives an overview of the status of the files whether these have been modifi
 git add <file_name>
 ```
 This adds the desired file to the staging area so that it can then be further pushed to the repository.
+
+```
+git add .
+```
+This adds all the files to the staging area so that it can then be further pushed to the repository.
 
 ```
 git commit -m "First Commit"
@@ -73,6 +83,29 @@ This links the local repository to the Github repository where the files need to
 git push origin main
 ```
 This pushes the code/files to the repository.
+
+##  Restoring Files
+
+In order to unstage a file from the staging environment 
+```
+git restore --staged "file_name"
+```
+OR
+```
+git reset file_name
+```
+
+In order to view the what is changed but not staged
+```
+git diff
+```
+
+In order to view what is staged but not yet commited 
+```
+git diff --staged
+```
+## Branching and Merging
+
 
 ## License
 
