@@ -61,7 +61,7 @@ This adds all the files to the staging area so that it can then be further pushe
 ```
 git commit -m "First Commit"
 ```
-This will make sure that it goes to the staginf environment with the desired message
+This will make sure that it goes to the staging environment with the desired message
 
 ```
 git branch
@@ -105,7 +105,8 @@ In order to view what is staged but not yet commited
 git diff --staged
 ```
 ## Branching and Merging
-Lets stay you want to create and work on a copy of the main branch, to do this we create another branch
+Lets stay you want to create and work on a copy of the main branch, to do this we create another branch.
+Basically,  Branching in Git allows you to diverge from the main line of development and continue to work independently without affecting the main line.
 
 ```
 git branch <branch_name>
