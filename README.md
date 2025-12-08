@@ -76,7 +76,7 @@ To rename the branch from "Master" to "main".
 ```
 git remote add origin https://github.com/Sidk97/Github_Tutorials.git
 ```
-This links the local repository to the Github repository where the files need to be pushed to._origin_ is the variable/name assigned to the repository.
+This links the local repository to the Github repository where the files need to be pushed to _origin_ is the variable/name assigned to the repository.
 
 
 ```
@@ -119,6 +119,16 @@ git checkout developer
 ```
 ### Merging - Timestamp 10:09
 Merging branches in Git is a common task that integrates changes from one branch into another
+
+In order to this, we first run the following command
+```
+git checkout main
+```
+And then merge the changes from the particular branch to the _main_ branch 
+
+```
+git merge <branch_name>
+
 
 ## License
 
