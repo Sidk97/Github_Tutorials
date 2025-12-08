@@ -4,7 +4,8 @@ The objective of this repository is to document my learning about Git and its co
 
 
 ## Overview
-- Creating a Github repository
+1.[Introduction](#installation)
+-  Creating a Github repository
 - Installation of Git Cli (Command Line Interface)
 - Configuration
 - Pushing Files to the Repository
@@ -128,7 +129,7 @@ And then merge the changes from the particular branch to the _main_ branch
 
 ```
 git merge <branch_name>
-
+```
 
 ## License
 
