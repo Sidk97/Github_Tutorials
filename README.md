@@ -118,6 +118,7 @@ To make this as the primary branch for commiting changes
 git checkout developer
 ```
 ### Merging - Timestamp 10:09
+Merging branches in Git is a common task that integrates changes from one branch into another
 
 ## License
 
