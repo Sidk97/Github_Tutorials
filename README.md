@@ -7,8 +7,11 @@ The objective of this repository is to document my learning about Git and its co
 1.[Installation](#installation)
 -  Creating a Github repository
 - Installation of Git Cli (Command Line Interface)
+
 2.[Setup](#setup)
+
 3.[Configuration](#configuration)
+
 4.[Pushing-files-on-to-Repository](#Pushing-files-on-to-Repository)
 
 ## Installation
